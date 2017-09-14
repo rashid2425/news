@@ -89,11 +89,18 @@ header #regAuth {
 }
 
 /*стили для левой колонки*/
+@media (min-width: 800px) {
 #wrapper #leftCol {
 	width: 70%;
 	margin-right: 10%;
 	float: left;
-}
+}}
+@media (max-width: 799px) {
+#wrapper #leftCol {
+	width: 90%;
+	margin-right: 5%;
+	float: left;
+}}
 #wrapper #leftCol #bigArticle {
 	width: 78%;
 	margin-left: 10%;
@@ -183,10 +190,17 @@ header #regAuth {
 }
 
 /*стили для правой колонки*/
+@media (min-width: 800px) {
 #wrapper #rightCol {
 	width: 20%;
 	float: left;
-}
+}}
+@media (max-width: 799px) {
+#wrapper #rightCol {
+	width: 80%;
+	margin-right: 10%;
+	float: left;
+}}
 #wrapper #rightCol .banner {
 	width: 100%;
 	float: left;
